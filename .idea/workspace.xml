@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd5a52c-4bd8-49d1-85a7-f9fa1fd32c46" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testdatabase.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BotMain.py" afterPath="$PROJECT_DIR$/BotMain.py" />
-    </list>
+    <list default="true" id="bdd5a52c-4bd8-49d1-85a7-f9fa1fd32c46" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
