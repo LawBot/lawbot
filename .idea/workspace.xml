@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdd5a52c-4bd8-49d1-85a7-f9fa1fd32c46" name="Default" comment="" />
+    <list default="true" id="bdd5a52c-4bd8-49d1-85a7-f9fa1fd32c46" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testdatabase.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BotMain.py" afterPath="$PROJECT_DIR$/BotMain.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,31 +19,30 @@
       <file leaf-file-name="BotTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BotTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="349">
+              <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
-                <element signature="e#1153#1166#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LabelDictionaryConverter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LabelDictionaryConverter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextConverter/LabelDictionaryConverter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="69">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BotMain.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BotMain.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BotMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="450">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -97,6 +100,10 @@
       <dir>F:\Personal\Code</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,6 +115,7 @@
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/LabeledCaseProcessor.py" />
         <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/BotMain.py" />
       </list>
     </option>
   </component>
@@ -166,8 +174,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="last_opened_file_path" value="D:/SoftwareInstallation/Git/cmd/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -372,7 +380,6 @@
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -427,7 +434,6 @@
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -482,7 +488,6 @@
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -537,7 +542,6 @@
           <caret line="19" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -558,7 +562,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,7 +572,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -580,7 +582,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,7 +592,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,7 +602,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -613,7 +612,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,7 +636,6 @@
           <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,7 +646,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -660,7 +656,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -671,7 +666,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -709,27 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BotTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-            <element signature="e#1153#1166#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BotMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TextConverter/LabeledCaseProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -742,9 +715,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TextConverter/LabelDictionaryConverter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="69">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BotTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BotMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
