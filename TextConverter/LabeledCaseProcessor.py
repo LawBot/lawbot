@@ -1,5 +1,4 @@
-from LawCase import LawCase
-
+from TextConverter.LawCase import LawCase
 from TextConverter.ContentUnit import ContentUnit
 from TextConverter.ContentUnit import NoKeyFactorException
 
@@ -23,7 +22,6 @@ class LabeledCaseProcessor:
 		test_list = case_list[trainListSize:]
 		self.writeYmlFile(yml_file, train_list)
 		self.writeTestFile(test_file, test_list)
-		print(len(case_list))
 
 	def buildLawCase(self, content):
 		content_str = str(content)
