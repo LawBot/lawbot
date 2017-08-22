@@ -3,9 +3,9 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # Uncomment the following lines to enable verbose logging
-# import logging
+import logging
 # logging.basicConfig(level=logging.INFO)
-# logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG)
 
 bot = ChatBot(
 	"NoteBot",
@@ -28,6 +28,6 @@ bot.set_trainer(ChatterBotCorpusTrainer)
 # bot.train("output.out")
 bot.read_only = True
 
-input = '现要求被告立即归还借款30000元'
+input = '口头约定月利率为0.8%'
 output = bot.get_response(input)
 print(output)

@@ -7,7 +7,7 @@ class LabeledCaseProcessor:
 	def __init__(self, debug_level):
 		self.debug_level = debug_level
 
-	def process(self, input_file, yml_file, test_file):
+	def process(self, input_file, yml_file, test_file, train_ratio):
 		case_str_list = self.readfile2str(input_file)
 		case_list = []
 		for idx, line in enumerate(case_str_list):
@@ -16,8 +16,14 @@ class LabeledCaseProcessor:
 				case_list.append(case)
 
 		completeListSize = len(case_list)
-		trainListSize = int(completeListSize * 9 / 10)
-		# testListSize = completeListSize / 10
+
+		ratio = train_ratio
+		if train_ratio > 1:
+			ratio = 1
+		if train_ratio < 0:
+			ratio = 0
+
+		trainListSize = int(completeListSize * ratio)
 		train_list = case_list[0:trainListSize]
 		test_list = case_list[trainListSize:]
 		self.writeYmlFile(yml_file, train_list)
