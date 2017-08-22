@@ -1,6 +1,6 @@
-from TextConverter.LawCase import LawCase
-from TextConverter.ContentUnit import ContentUnit
-from TextConverter.ContentUnit import NoKeyFactorException
+from TextProcessor.LawCase import LawCase
+from TextProcessor.ContentUnit import ContentUnit
+from TextProcessor.ContentUnit import NoKeyFactorException
 
 
 class LabeledCaseProcessor:
