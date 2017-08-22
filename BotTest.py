@@ -62,6 +62,9 @@ input = {'2007年9月25日，被告向原告借款30000元':1, '现要求被告�
 output = bot.get_response(input)
 print(output)
 
+# Uncommenting the following lines to make tests and produce test results
+
+
 # The following loop will execute each time the user enters input
 # while True:
 #     try:
@@ -74,3 +77,32 @@ print(output)
 #     # Press ctrl-c or ctrl-d on the keyboard to exit
 #     except (KeyboardInterrupt, EOFError, SystemExit):
 #         break
+
+#
+# lcp = LabeledCaseProcessor('INFO')
+# cu_list = lcp.readTestFile(TEST_PATH)
+#
+# correct = 0
+# incorrect = 0
+#
+# for idx, cu in enumerate(cu_list):
+#   input = cu.text
+#   factor = cu.factor
+#   output = bot.get_response(input)
+#
+#   if factor == output.text:
+#     correct += 1
+#     print("第" + str(idx + 1) + "条回答正确！")
+#   else:
+#     incorrect += 1
+#     print("======================================")
+#     print("第" + str(idx + 1) + "条回答错误")
+#     print("原文： " + input)
+#     print("应输出： " + factor)
+#     print("实际输出： " + output.text)
+#     print("======================================")
+#
+# total = correct + incorrect
+# percent = correct / total * 100
+# print("共计测试数量：" + str(total) + " 正确数量：" + str(correct) + " 错误数量：" + str(incorrect) + " 正确率:" + str(percent) + "%")
+
