@@ -8,7 +8,7 @@ class LabeledCaseProcessor:
 		self.debug_level = debug_level
 
 	def process(self, input_file, yml_file, test_file, train_ratio):
-		case_str_list = self.readfile2str(input_file)
+		case_str_list = self.readfile2casestr(input_file)
 		case_list = []
 		for idx, line in enumerate(case_str_list):
 			case = self.buildLawCase(line)
@@ -73,8 +73,8 @@ class LabeledCaseProcessor:
 					if self.debug_level == 'DEBUG':
 						print("Key factor " + factor + " not found!")
 
-				# print(factor)
-				# print(description)
+					# print(factor)
+					# print(description)
 			else:
 				error_note = True
 
@@ -83,7 +83,7 @@ class LabeledCaseProcessor:
 		lawcase.content = cu_list
 		return lawcase
 
-	def readfile2str(self, input_file):
+	def readfile2casestr(self, input_file):
 		with open(input_file, encoding='utf-8') as f:
 			content = f.readlines()
 
@@ -116,3 +116,21 @@ class LabeledCaseProcessor:
 				for index, cu in enumerate(cu_list):
 					f.write("[Question]" + cu.text + "\n")
 					f.write("[Answer]" + cu.factor + "\n")
+
+	def readTestFile(self, test_file):
+		with open(test_file, encoding='utf-8', mode='r') as f:
+			content = f.readlines()
+
+		cu_list = []
+		text = ''
+		factor = ''
+		for idx, line in enumerate(content):
+			if line.startswith('[Question]') or line.startswith('[Answer]'):
+				if line.startswith('[Question]'):
+					text = line[len('[Question]'):-1]
+				if line.startswith(('[Answer]')):
+					factor = line[len('[Answer]'):-1]
+					cu = ContentUnit(factor, text)
+					cu_list.append(cu)
+
+		return cu_list

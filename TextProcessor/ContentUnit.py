@@ -55,8 +55,8 @@ class ContentUnit:
                     "两被告已离婚"]
 
     def __init__(self, factor, text):
-        if factor not in self._FACTOR_LIST:
-            raise NoKeyFactorException
+        # if factor not in self._FACTOR_LIST:
+        #     raise NoKeyFactorException
 
         self.factor = factor
         self.text = text
