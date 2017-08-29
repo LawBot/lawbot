@@ -35,7 +35,7 @@ bot.read_only = True
 
 # Uncommenting the following lines to make tests and produce test results
 time_folder = strftime("%Y-%m-%d_%H-%M-%S", localtime())
-TEST_INPUT_PATH = 'output\\test_6818.txt'
+TEST_INPUT_PATH = 'output\\test_2003.txt'
 TEST_RESULT_FOLDER = 'TestResults\\' + time_folder
 TEST_RESULT_FILE = TEST_RESULT_FOLDER + '\\TestResult.txt'
 

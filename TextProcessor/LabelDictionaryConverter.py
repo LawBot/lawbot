@@ -1,8 +1,8 @@
 from TextProcessor.LabeledCaseProcessor import LabeledCaseProcessor
 
-in_path = '..\\input\\6818_tagged.txt'
-yml_path = '..\\output\\out_6818.yml'
-test_path = '..\\output\\test_6818.txt'
+in_path = '..\\input\\2003_tagged.txt'
+yml_path = '..\\output\\out_2003.yml'
+test_path = '..\\output\\test_2003.txt'
 
 train_ratio = 0.9
 lcp = LabeledCaseProcessor('INFO')
