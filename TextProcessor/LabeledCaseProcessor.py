@@ -40,6 +40,9 @@ class LabeledCaseProcessor:
 		else:
 			return None
 
+		if self.debug_level == 'DEBUG':
+			print("Building LawCase Object for case: " + lawcase_id)
+
 		if content_str.find('[原告诉称]') == -1:
 			if self.debug_level == 'DEBUG':
 				print("This case does not have [原告诉称] field: " + lawcase_id)
@@ -59,6 +62,8 @@ class LabeledCaseProcessor:
 		while start_idx != -1:
 			start_idx += 1
 			end_idx = accuse_str.find('】', start_idx)
+			if end_idx == -1:
+				break
 			chunck = accuse_str[start_idx:end_idx]
 			end_idx += 1
 
