@@ -15,7 +15,7 @@ import logging
 bot = ChatBot(
 	"NoteBot",
 	storage_adapter="chatterbot.storage.SQLStorageAdapter",
-	database_uri="sqlite:///testdatabase.db",
+	database_uri="sqlite:///2003database.db",
 	logic_adapters=[
 		{
 			'import_path': 'chatterbot.logic.BestMatch'
